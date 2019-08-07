@@ -3,6 +3,7 @@ import "../style.css"
 import Appbar from "../components/appbar"
 import { graphql } from "gatsby"
 import Card from "../components/card"
+import { Helmet } from "react-helmet"
 
 function Projects({ data }) {
   const projectList = data.allProjectsYaml.edges
@@ -10,6 +11,10 @@ function Projects({ data }) {
   return (
     <div className="container-fluid">
       <Appbar />
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Home | Sumanth</title>
+      </Helmet>
       <div className="row">
         {projectList.map(({ node }) => {
           return (
@@ -17,7 +22,7 @@ function Projects({ data }) {
               cardTitle={node.title}
               cardSubtitle={node.subtitle}
               link={node.link}
-              key = {node.id}
+              key={node.id}
             />
           )
         })}
