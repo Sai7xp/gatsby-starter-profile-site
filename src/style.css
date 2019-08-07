@@ -1,16 +1,15 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Poppins|Source+Code+Pro&display=swap');
 
 html {
   background-color: #1f2b3b !important;
-  color: #fff;
+  color: #fff !important;
   font-size: 2em;
   font-family: "Poppins", sans-serif;
 }
 
 body {
   background-color: #1f2b3b !important;
-  color: #fff;
+  color: #fff !important;
   font-size: 2em;
   font-family: "Poppins", sans-serif;
 }
@@ -50,7 +49,7 @@ body {
 
 .card p {
   font-size: 0.7em;
-  color: #ccc;
+  color: #ccc !important;
 }
 
 .card a {
