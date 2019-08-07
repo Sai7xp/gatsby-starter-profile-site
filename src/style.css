@@ -3,15 +3,15 @@
 html {
   background-color: #1f2b3b !important;
   color: #fff !important;
-  font-size: 2em;
-  font-family: "Poppins", sans-serif;
+  /* font-size: 2em; */
+  font-family: "Poppins", sans-serif !important;
 }
 
 body {
   background-color: #1f2b3b !important;
   color: #fff !important;
-  font-size: 2em;
-  font-family: "Poppins", sans-serif;
+  /* font-size: 2em; */
+  font-family: "Poppins", sans-serif !important;
 }
 
 .code {
