@@ -6,7 +6,7 @@ import Info from "../components/info";
 
 function index() {
   return (
-    <div className="container-fluid">
+    <div>
       <Appbar />
       <Info/>
     </div>
