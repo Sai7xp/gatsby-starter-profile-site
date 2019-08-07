@@ -2,14 +2,14 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap");
 
 html {
-  background-color: #1f2b3b;
+  background-color: #1f2b3b !important;
   color: #fff;
   font-size: 2em;
   font-family: "Poppins", sans-serif;
 }
 
 body {
-  background-color: #1f2b3b;
+  background-color: #1f2b3b !important;
   color: #fff;
   font-size: 2em;
   font-family: "Poppins", sans-serif;
