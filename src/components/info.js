@@ -24,7 +24,7 @@ export default function info() {
         eiusmod tempor incididunt ut labore et.
       </div>
       <div className="h1 code mt-2 mb-3">{"}"}</div>
-      <div className="h1 social mt-5">
+      <div className="h1 mt-5">
         <a className="mr-5 icon" href="https://twitter.com/Mr404Found">
           <Twitter />
         </a>
