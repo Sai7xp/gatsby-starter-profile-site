@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins|Source+Code+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins|Source+Code+Pro&display=swap");
 
 html {
   background-color: #1f2b3b !important;
@@ -39,6 +39,10 @@ body {
 .icon:hover {
   transform: scale(1.5);
   color: #ff8a00;
+}
+
+.projects-wrapper {
+  overflow-x: hidden;
 }
 
 .card {
